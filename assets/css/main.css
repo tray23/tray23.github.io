@@ -1239,6 +1239,7 @@
 			width: 5.5rem;
 			height: 5.5rem;
 			border-radius: 100%;
+			z-index: 1000;
 		}
 
 		#header .content {
