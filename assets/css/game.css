@@ -19,7 +19,7 @@ html, body {
 }
 
 #ajaxbar {
-    background: url('media/graphics/loading/ajax-loader.gif') center no-repeat;
+    background: url('images/ajax-loader.gif') center no-repeat;
 }
 
 #canvas {
@@ -169,7 +169,7 @@ html, body {
 #MobileAdInGamePreroll3-Box-Close {
     position: absolute;
     z-index: 10005;
-    background-image: url('media/graphics/ads/light/close-button.png');
+    background-image: url('images/close-button.png');
     background-repeat: no-repeat;
     width: 22px;
     height: 22px;
@@ -242,7 +242,7 @@ html, body {
 #MobileAdInGameEnd-Box-Close, #MobileAdInGameEnd2-Box-Close, #MobileAdInGameEnd3-Box-Close {
     position: absolute;
     z-index: 10005;
-    background-image: url('media/graphics/ads/light/close-button.png');
+    background-image: url('images/close-button.png');
     background-repeat: no-repeat;
     width: 22px;
     height: 22px;
