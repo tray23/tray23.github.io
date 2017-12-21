@@ -1,190 +1,121 @@
-<!DOCTYPE HTML>
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Timothy Ray Portfolio</title>
-		
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
-	</head>
-	<body>
+<head>
+<title>Snowball Office Fight</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<meta name="viewport" content="width=device-width,height=device-height initial-scale=1, maximum-scale=1, user-scalable=0, minimal-ui" />
 
-				<!-- Header -->
-					<header id="header">
-					
-						<div class="logo">
-							<img src="images/profile.jpg" alt="" />
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Timothy Ray</h1>
-								<p>Check out my work by clicking one of the links below</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#Design">Design</a></li>
-								<li><a href="#Print">Print</a></li>
-								<li><a href="#Animation">Animation</a></li>
-								<li><a href="#Photography">Photography</a></li>
-								<li><a href="#Videography">Videography</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-								
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Intro -->
-							<article id="Design">
-								<h2 class="major">Design</h2>
-							<iframe src="http://www.timothy-d-ray.com/uiux-design" width="550" height="11000"></iframe>
-    						
-    						
-    						
-							</article>
-
-							<!-- Print -->
-							<article id="Print">
-								<h2 class="major">Print</h2>
-
-								<iframe src="http://www.timothy-d-ray.com/test" width="600" height="1000"></iframe>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" type="text/css" href="assets/css/game.css">
+<script type="text/javascript" src="assets/js/game.js"></script>
 
 
-								
-							</article>
+</head>
+<body onload="setTimeout(window.scrollTo(0,1),1);">
+<div id="ajaxbar">
+<div id="game"><canvas id="canvas"></canvas></div>
+<div id="orientate"><img src="images/landscape.png" /></div>
+<div id="play" class="play" onclick=""><img src="images/bg.png" /></div>
 
-							<!-- Animation -->
-							<article id="Animation">
-								<h2 class="major">Animation</h2>
-								<iframe width="400" height="225" src="https://www.youtube.com/embed/fr8kE3JmNJ8" frameborder="0" allowfullscreen></iframe>
-								<br>
-								<br>
-								<iframe width="400" height="225" src="https://www.youtube.com/embed/QI-l-etcjJw" frameborder="0" allowfullscreen></iframe>
-								<br>
-								<br>
-								<iframe width="400" height="225" src="https://www.youtube.com/embed/ylrswwNMa1w" frameborder="0" allowfullscreen></iframe>
-									
-							</article>
+<div id="MobileAdInGamePreroll">
+<div id="MobileAdInGamePreroll-Box">
+<div id="MobileAdInGamePreroll-Box-Header"></div>
+<a id="MobileAdInGamePreroll-Box-Close" onclick="MobileAdInGamePreroll.Close();"></a>
+<div id="MobileAdInGamePreroll-Box-Body">
+<center>
 
 
-						<!-- Photography -->
-							<article id="Photography">
-								<h2 class="major">Photography</h2>
-								<span class="image main"><img src="images/photography-1.jpg" alt="" /></span>
-								<span class="image main"><img src="images/photography-2.jpg" alt="" /></span>
-								<span class="image main"><img src="images/photography-3.jpg" alt="" /></span>
-								<span class="image main"><img src="images/photography-4.jpg" alt="" /></span>
-								<span class="image main"><img src="images/photography-5.jpg" alt="" /></span>
-								<span class="image main"><img src="images/photography-6.jpg" alt="" /></span>
-								<span class="image main"><img src="images/photography-7.jpg" alt="" /></span>
-								<span class="image main"><img src="images/photography-8.jpg" alt="" /></span>
-								<span class="image main"><img src="images/photography-9.jpg" alt="" /></span>
-								<span class="image main"><img src="images/photography-10.jpg" alt="" /></span>
-								<span class="image main"><img src="images/photography-11.jpg" alt="" /></span>
-								
-							</article>
-							
-							<!-- Videography -->
-							<article id="Videography">
-								<h2 class="major">Videography</h2>
-								<iframe width="400" height="225" src="https://www.youtube.com/embed/piuR1dOkD5M" frameborder="0" allowfullscreen></iframe>
-								<br>
-								<br>
-								<iframe width="400" height="225" src="https://www.youtube.com/embed/Gg8LwgG1AJw" frameborder="0" allowfullscreen></iframe>
-								
-								
-								
-							</article>
+<img src="https://cdn-factory.marketjs.com/generic.png">
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/me.jpg" alt="" /></span>
-								<p>Hi, I'm Tim,<br>
-							I am a designer, developer, photographer, and musician. <br>
-							I love to create, collaborate, and learn.<br>
-							I have a passion for design and technology.
-							I strive to create cool things and have fun along the way.<br>
-							If you would like to see more of my work feel free to contact me.</p><br>
-							</article>
+</center>
+</div>
+<div id='MobileAdInGamePreroll-Box-Footer'></div>
+</div>
+</div>
 
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="field half first">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="special" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/timothy-ray-6a883893/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://www.instagram.com/ttimothyray/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/tray23" class="icon fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
+<div id="MobileAdInGamePreroll2">
+<div id="MobileAdInGamePreroll2-Box">
+<div id="MobileAdInGamePreroll2-Box-Header"></div>
+<a id="MobileAdInGamePreroll2-Box-Close" onclick="MobileAdInGamePreroll.Close();"></a>
+<div id="MobileAdInGamePreroll2-Box-Body">
+<center>
 
-						
+</center>
+</div>
+<div id='MobileAdInGamePreroll2-Box-Footer'></div>
+</div>
+</div>
 
-					</div>
+<div id="MobileAdInGamePreroll3">
+<div id="MobileAdInGamePreroll3-Box">
+<div id="MobileAdInGamePreroll3-Box-Header"></div>
+<a id="MobileAdInGamePreroll3-Box-Close" onclick="MobileAdInGamePreroll.Close();"></a>
+<div id="MobileAdInGamePreroll3-Box-Body">
+<center>
 
-				<!-- Footer -->
-					<footer id="footer">
-						
-					</footer>
+</center>
+</div>
+<div id='MobileAdInGamePreroll3-Box-Footer'></div>
+</div>
+</div>
+<div id="MobileAdInGameHeader">
 
-			</div>
+</div>
+<div id="MobileAdInGameHeader2">
 
-		<!-- bg
-		<div id="bg">
-			<video controls autoplay loop id="bgvid">
-    <source src="images/bg.mov" type="video/mp4">
+</div>
+<div id="MobileAdInGameHeader3">
 
-</video> -->
+</div>
+<div id="MobileAdInGameFooter">
 
-			
-			
-			</div>    
+</div>
+<div id="MobileAdInGameFooter2">
 
-		<!-- Scripts -->
-		<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+</div>
+<div id="MobileAdInGameFooter3">
 
-  ga('create', 'UA-101224965-1', 'auto');
-  ga('send', 'pageview');
+</div>
+<div id="MobileAdInGameEnd">
+<div id="MobileAdInGameEnd-Box">
+<div id="MobileAdInGameEnd-Box-Header"></div>
+<a id="MobileAdInGameEnd-Box-Close" onclick="MobileAdInGameEnd.Close();"></a>
+<div id="MobileAdInGameEnd-Box-Body">
+<center>
 
-</script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/ideal-image-slider.js"></script>
+</center>
+</div>
+<div id='MobileAdInGameEnd-Box-Footer'></div>
+</div>
+</div>
 
-	</body>
+<div id="MobileAdInGameEnd2">
+<div id="MobileAdInGameEnd2-Box">
+<div id="MobileAdInGameEnd2-Box-Header"></div>
+<a id="MobileAdInGameEnd2-Box-Close" onclick="MobileAdInGameEnd.Close();"></a>
+<div id="MobileAdInGameEnd2-Box-Body">
+<center>
+
+</center>
+</div>
+<div id='MobileAdInGameEnd2-Box-Footer'></div>
+</div>
+</div>
+
+<div id="MobileAdInGameEnd3">
+<div id="MobileAdInGameEnd3-Box">
+<div id="MobileAdInGameEnd3-Box-Header"></div>
+<a id="MobileAdInGameEnd3-Box-Close" onclick="MobileAdInGameEnd.Close();"></a>
+<div id="MobileAdInGameEnd3-Box-Body">
+<center>
+
+</center>
+</div>
+<div id='MobileAdInGameEnd3-Box-Footer'></div>
+</div>
+</div>
+
+</div>
+</body>
 </html>
