@@ -8,7 +8,7 @@ html, body {
 
 @font-face {
     font-family: 'RocksG';
-    src: url('media/text/Cloudy.ttf');
+    src: url('fonts/Cloudy.ttf');
 }
 
 #game {
