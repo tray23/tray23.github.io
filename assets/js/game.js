@@ -13002,7 +13002,7 @@ ig.module("game.main").requires("impact.game", "impact.debug.debug", "plugins.sp
             }
         })
     };
-    if (document.referrer.indexOf("marketjs.com") < 0) {
+    if (document.referrer.indexOf("tray23.github.io") < 0) {
         if (top != self) {
             console.log("showing anti-piracy layer ...");
             $("#anti-piracy").show();
