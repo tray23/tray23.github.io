@@ -13002,13 +13002,7 @@ ig.module("game.main").requires("impact.game", "impact.debug.debug", "plugins.sp
             }
         })
     };
-    if (document.referrer.indexOf("tray23.github.io") < 0) {
-        if (top != self) {
-            console.log("showing anti-piracy layer ...");
-            $("#anti-piracy").show();
-            top.location.replace(self.location.href);
-        }
-    }
+
     MyGame = ig.Game.extend({
         init: function() {
             var S5 = 100000228;
